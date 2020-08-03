@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper or Scissor</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="header">
+    <h2 class="header_title">
+      Piedra, papel o tijera
+    </h2>
+  </header>
+  <main class="main_container">
+    <div class="main_container__card">
+      <div class="main_container__card--title">
+        <img id="user" src="./images/user.png" />
+        <p>Usuario</p>
+        <p id="user_points">0</p>
+      </div>
+      <div class="main_container__img">
+        <img src="./images/vs_icon.png" />
+      </div>
+      <div class="main_conatiner__card--title">
+        <img id="cpu" src="./images/cpu.png" />
+        <p>CPU</p>
+        <p id="cpu-points">0</p>
+      </div>
+    </div>
+    <div class="container_options">
+      <div class="container_options_img">
+        <div class="container_options__option">
+          <button id="rock" class="container_options__button"></button>
+        </div>
+        <div class="container_options__option">
+          <button id="paper" class="container_options__button"></button>
+        </div>
+        <div class="container_options__option">
+          <button id="scissor" class="container_options__button"></button>
+        </div>
+      </div>
+      <div class="instructions">
+        <p>Elige una opción</p>
+      </div>
+    </div>
+    <div class="container_button">
+      <button id="init_game">Iniciar juego</button>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
